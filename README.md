@@ -1,7 +1,5 @@
 # README 
 
-
-
 ## Basics
 * which IDE? IntelliJ, VSCode, and Eclipse
 * your choice of Java: GraalVM
@@ -9,6 +7,7 @@
 * Devtools
 * Docker Compose 
 * Testcontainers
+* banner.txt
 
 ## Development Desk Check
 * the Spring JavaFormat Plugin 
@@ -24,9 +23,11 @@
 ## Data Oriented Programming in Java 21+ 
 * an example
 
-## the component model
+## Beans
 * dependency injection from first principles
 * bean configuration
+* XML
+* stereotype annotations
 * lifecycle 
 	* BeanPostProcessor
 	* BeanFactoryPostProcessor
@@ -49,7 +50,7 @@
 * Spring Data JDBC
 
 
-## Batch Processing
+## Batch Processing (TBD)
 * Spring Batch
 * load some data from a CSV file to a SQL database
 
@@ -59,9 +60,15 @@
 * José Paumard's demo
 * Cora Iberkleid's demo 
 
+
+
 ## Web Programming
 * REST
+	* controllers
+	* functional style
 * GraphQL 
+	* batches
+
 
 ## Messaging and Integration
 * "What do you mean by Event Driven?"
@@ -75,6 +82,14 @@
 * Externalized messages
 * Testing 
 
+## Artificial Intelligence
+* what's in a model?
+* Spring AI
+* `ChatClient`
+* prompts
+* advisors
+* Retrieval Augmented Generation (RAG)
+
 ## Microservices
 * centralized configuration 
 * API gateways 
@@ -82,6 +97,9 @@
 * event bus and refreshable configuration
 * service registration and discovery
 
+<!-- 
+ we are here...
+-->
 ## Security 
 * adding form login to an application
 * authentication 
@@ -94,13 +112,7 @@
 	* OAuth resource servers
 	* protecting messaging code
 
-## Artificial Intelligence
-* what's in a model?
-* Spring AI
-* `ChatClient`
-* prompts
-* advisors
-* Retrieval Augmented Generation (RAG)
+
 
 ## Q&A 
 * I may not know, but I probably know who does know...
